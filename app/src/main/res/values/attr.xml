@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="hint" format="string" />
+    <attr name="required" format="boolean" />
+    <attr name="title" format="string"/>
+    <attr name="disabled" format="boolean"/>
+
+    <declare-styleable name="SelectView">
+        <attr name="sv_title" format="string" />
+        <attr name="sv_disable" format="boolean" />
+        <attr name="hint" />
+        <attr name="required" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectButton">
+        <attr name="ic_title" format="string" />
+        <attr name="sb_title" format="string" />
+        <attr name="sb_disable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiSelectView">
+        <attr name="msv_title" format="string" />
+        <attr name="msv_disable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="EditableView">
+        <attr name="ev_title" format="string" />
+        <attr name="ev_disable" format="boolean" />
+        <attr name="hint" />
+        <attr name="required" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberTextView">
+        <attr name="title"/>
+        <attr name="disabled"/>
+        <attr name="hint" />
+        <attr name="required" />
+    </declare-styleable>
+
+    <declare-styleable name="DateTextView">
+        <attr name="dtv_label" format="string" />
+        <attr name="dtv_hint" format="string" />
+        <attr name="dtv_text" format="string" />
+        <attr name="dtv_disable" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="DetailCardView">
+        <attr name="dcv_title" format="string" />
+        <attr name="dcv_icon" format="reference" />
+        <attr name="dcv_subtitle" format="string" />
+        <attr name="dcv_subtitle_color" format="color" />
+    </declare-styleable>
+</resources>

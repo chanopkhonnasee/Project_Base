@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/TextViewKanit</item>
+        <item name="android:buttonStyle">@style/ButtonKanit</item>
+        <item name="android:editTextStyle">@style/EditTextKanit</item>
+        <item name="android:checkboxStyle">@style/CheckBoxKanit</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonKanit</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance" parent="android:TextAppearance">
+        <item name="fontPath">font/kanit_light</item>
+    </style>
+
+    <style name="TextViewKanit" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/kanit_light</item>
+    </style>
+
+    <style name="ButtonKanit" parent="android:Widget.Button">
+        <item name="android:fontFamily">@font/kanit_light</item>
+        <item name="android:padding">@dimen/margin_10</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="EditTextKanit" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/kanit_light</item>
+    </style>
+
+    <style name="CheckBoxKanit" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:fontFamily">@font/kanit_light</item>
+        <item name="android:textAppearance">@font/kanit_light</item>
+    </style>
+
+    <style name="RadioButtonKanit" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/kanit_light</item>
+    </style>
+
+    <style name="PrimaryButton" parent="Theme.AppCompat">
+        <item name="android:fontFamily">@font/kanit_light</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:background">@drawable/radio_button_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">@dimen/margin_4</item>
+        <item name="android:drawableTop">@drawable/ic_map_black_24dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+</resources>

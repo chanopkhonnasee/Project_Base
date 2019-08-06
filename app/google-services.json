@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "894485873936",
+    "firebase_url": "https://pea-mjm.firebaseio.com",
+    "project_id": "pea-mjm",
+    "storage_bucket": "pea-mjm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894485873936:android:62e64ed77ea6be81",
+        "android_client_info": {
+          "package_name": "com.chanop.base"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894485873936-6b0k5ian95q6n4mfg29725uhq4eak1i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmgY_O5_5lE2B76Nj25FDmqwxu8iZ-1iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894485873936-6b0k5ian95q6n4mfg29725uhq4eak1i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

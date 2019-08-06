@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Application Base</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_map" translatable="false">Map</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="title_profile" translatable="false">Profile</string>
+    <string name="other" translatable="false">อื่น ๆ</string>
+    <string name="search" translatable="false">ค้นหา</string>
+    <string name="attachment_title" translatable="false">รูปถ่าย/วิดิโอ</string>
+    <string name="detail" translatable="false">รายละเอียด</string>
+    <string name="detail_hint" translatable="false">ระบุรายละเอียด</string>
+    <string name="dialog_clear">Clear</string>
+</resources>
